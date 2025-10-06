@@ -1,95 +1,29 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Tya Serlaphae — daydream</title>
-  <link href="https://fonts.googleapis.com/css2?family=Italianno&display=swap" rel="stylesheet">
-  <style>
-    body {
-      margin:0;
-      background:#fff9e9; /* warmer ivory-yellow tint */
-      font-family:'Italianno', cursive;
-      display:flex;
-      flex-direction:column;
-      align-items:center;
-    }
-
-    h1 {
-      font-size:4rem;          /* larger elegant name */
-      margin-top:1.8rem;
-      margin-bottom:.3rem;
-    }
-
-    hr {
-      width:220px;
-      border:none;
-      border-top:1px solid #d6d2c8;
-      margin-bottom:1.5rem;
-    }
-
-    header {
-      position:sticky;
-      top:0;
-      width:100%;
-      display:flex;
-      justify-content:center;
-      align-items:center;
-      gap:1rem;
-      padding:1rem;
-      background:rgba(255,249,233,.9);
-      backdrop-filter:blur(8px);
-    }
-
-    input {
-      padding:.6rem 1rem;
-      border-radius:999px;
-      border:1px solid #ddd;
-      font-family:inherit;
-      font-size:1rem;
-      background:#ffffffcc;
-      width:380px; /* slightly longer bar */
-      text-align:center;
-    }
-
-    .eye {
-      width:72px;
-      height:72px;
-      border-radius:50%;
-      background:#fff;               /* white circular background */
-      display:flex;
-      justify-content:center;
-      align-items:center;
-      box-shadow:0 0 8px rgba(255,255,255,.8), 0 2px 8px rgba(0,0,0,.08);
-      overflow:hidden;
-    }
-
-    .eye img {
-      width:90%;
-      height:90%;
-      object-fit:contain;
-      border-radius:50%;             /* ensures the image fits evenly */
-    }
-
-    p {
-      font-size:1.4rem;
-      margin-top:2rem;
-      color:#6e654e;
-    }
-  </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tya Serlaphae</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <h1>Tya Serlaphae</h1>
-  <hr>
-
-  <header>
-    <input placeholder="daydream" />
-    <div class="eye">
-      <img src="unnamed.jpg" alt="eye icon">
+  <header class="header">
+    <div class="top-bar">
+      <div class="eye-icon">
+        <img src="eye.png" alt="Eye Icon" />
+      </div>
+      <div class="search-bar">
+        <input type="text" placeholder="Search..." />
+      </div>
     </div>
+    <hr class="divider" />
+    <h1 class="title">Tya Serlaphae</h1>
   </header>
 
-  <p>Create your world — choose your aesthetic.</p>
+  <main class="content">
+    <div class="circle-tile">
+      <p>Your circle tile content here</p>
+    </div>
+  </main>
 </body>
 </html>
-
