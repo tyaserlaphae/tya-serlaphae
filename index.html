@@ -3,9 +3,11 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Tya Serlaphae</title>
+  <title>Tya Serlaphae Daydream</title>
+
   <!-- Elegant cursive font -->
   <link href="https://fonts.googleapis.com/css2?family=Parisienne&display=swap" rel="stylesheet">
+
   <style>
     /* 🌼 General Page Setup */
     body {
@@ -19,12 +21,12 @@
 
     /* 🌼 Header */
     .header {
-      padding-top: 40px;
+      padding-top: 10px; /* moves title higher */
     }
 
     /* 🌼 Title */
     .title {
-      font-size: 50px; /* smaller size */
+      font-size: 50px; 
       margin: 0;
       letter-spacing: 1.5px;
     }
@@ -32,8 +34,73 @@
     .subtitle {
       font-size: 40px;
       margin-left: 10px;
-      color: #bfa85f; /* subtle golden tint for Daydream */
+      color: #000; /* Daydream in black */
     }
+
+    /* 🌼 Divider line */
+    .divider {
+      width: 100%;
+      height: 1px; /* thinner line */
+      background-color: #2e2e2e;
+      border: none;
+      margin: 10px 0 20px 0;
+    }
+
+    /* 🌼 Search bar + circle */
+    .search-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 15px; /* space between search bar and circle */
+      margin-top: 10px;
+    }
+
+    .search-bar input {
+      padding: 14px 30px;
+      border-radius: 60px;
+      border: 1px solid #d4b543;
+      outline: none;
+      width: 280px;
+      font-size: 20px;
+      font-family: 'Parisienne', cursive;
+      background-color: #fffef3;
+      box-shadow: 0 3px 10px rgba(0, 0, 0, 0.15);
+      transition: all 0.3s ease;
+    }
+
+    .search-bar input::placeholder {
+      color: #b8a25c;
+    }
+
+    .search-bar input:focus {
+      box-shadow: 0 4px 14px rgba(255, 219, 88, 0.6);
+      transform: scale(1.03);
+    }
+
+    /* Circle next to search bar */
+    .circle {
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      background-color: #2e2e2e;
+      display: inline-block;
+    }
+
+    /* Hide accidental code text */
+    body > code, pre {
+      display: none !important;
+    }
+  </style>
+</head>
+<body>
+  <header class="header">
+    <h1 class="title">Tya Serlaphae <span class="subtitle">Daydream</span></h1>
+    <hr class="divider" />
+    <div class="search-container">
+      <div class="search-bar">
+        <input type="text" placeholder="Search..." />
+      </div>
+      <div class="circle"></div>
 
     /* 🌼 Divider line */
     .divider {
