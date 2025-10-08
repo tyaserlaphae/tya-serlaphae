@@ -41,4 +41,49 @@
       height: 2px;
       background-color: #2e2e2e;
       border: none;
-      margin: 10px 0 20px
+      margin: 10px 0 20px 0;
+    }
+
+    /* 🌼 Search bar styling */
+    .search-bar {
+      margin-top: 10px;
+    }
+
+    .search-bar input {
+      padding: 14px 30px;
+      border-radius: 60px;
+      border: 1px solid #d4b543;
+      outline: none;
+      width: 280px;
+      font-size: 20px;
+      font-family: 'Parisienne', cursive;
+      background-color: #fffef3;
+      box-shadow: 0 3px 10px rgba(0, 0, 0, 0.15);
+      transition: all 0.3s ease;
+    }
+
+    .search-bar input::placeholder {
+      color: #b8a25c;
+    }
+
+    .search-bar input:focus {
+      box-shadow: 0 4px 14px rgba(255, 219, 88, 0.6);
+      transform: scale(1.03);
+    }
+
+    /* Hide accidental code text */
+    body > code, pre {
+      display: none !important;
+    }
+  </style>
+</head>
+<body>
+  <header class="header">
+    <h1 class="title">Tya Serlaphae <span class="subtitle">Daydream</span></h1>
+    <hr class="divider" />
+    <div class="search-bar">
+      <input type="text" placeholder="Search..." />
+    </div>
+  </header>
+</body>
+</html>
