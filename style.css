@@ -1,28 +1,20 @@
-background-color: #fffbe6; /* creamy white with a hint of yellow */
-
-.search-bar input {
-  padding: 14px 30px;
-  border-radius: 60px;
-  border: 1px solid #d4b543;
-  outline: none;
-  width: 280px;
-  font-size: 20px;
-  font-family: 'Parisienne', cursive;
-  background-color: #fffef3;
-  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.15);
-  transition: all 0.3s ease;
-}
-
-.search-bar input::placeholder {
-  color: #b8a25c;
-}
-
-.search-bar input:focus {
-  box-shadow: 0 4px 14px rgba(255, 219, 88, 0.6);
-  transform: scale(1.03);
-}
-
-/* Hide any accidental code text that might appear on page */
-body > code, pre {
-  display: none !important;
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tya Serlaphae</title>
+  <link rel="stylesheet" href="style.css" />
+  <!-- Elegant cursive font -->
+  <link href="https://fonts.googleapis.com/css2?family=Parisienne&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="header">
+    <h1 class="title">Tya Serlaphae <span class="subtitle">Daydream</span></h1>
+    <hr class="divider" />
+    <div class="search-bar">
+      <input type="text" placeholder="Search..." />
+    </div>
+  </header>
+</body>
+</html>
