@@ -1,39 +1,4 @@
-/* 🌼 Page setup */
-body {
-  margin: 0;
-  background-color: #ffeb4d; /* bright, warm yellow */
-  font-family: 'Parisienne', cursive;
-  text-align: center;
-  color: #2e2e2e;
-  overflow-x: hidden;
-}
-
-/* 🌼 Header */
-.header {
-  padding-top: 40px;
-}
-
-/* 🌼 Title */
-.title {
-  font-size: 80px;
-  margin: 0;
-  letter-spacing: 2px;
-  font-weight: normal;
-}
-
-/* 🌼 Divider line */
-.divider {
-  width: 80%;
-  height: 2px;
-  background-color: #000;
-  border: none;
-  margin: 10px auto 20px auto;
-}
-
-/* 🌼 Search bar styling */
-.search-bar {
-  margin-top: 10px;
-}
+background-color: #fffbe6; /* creamy white with a hint of yellow */
 
 .search-bar input {
   padding: 14px 30px;
