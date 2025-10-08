@@ -1,26 +1,68 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Tya Serlaphae</title>
-  <link rel="stylesheet" href="style.css" />
-  <!-- Elegant cursive font -->
-  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
-</head>
-<body>
-  <header class="header">
-    <h1 class="title">Tya Serlaphae</h1>
-    <hr class="divider" />
-    <div class="search-bar">
-      <input type="text" placeholder="Search..." />
-    </div>
-  </header>
+/* 🌼 General Page Setup */
+body {
+  margin: 0;
+  font-family: 'Great Vibes', cursive;
+  background-color: #fff3b0; /* warm yellow tint */
+  color: #333;
+  text-align: center;
+}
 
-  <main class="content">
-    <div class="circle-tile">
-      <p>Your circle tile content here</p>
-    </div>
-  </main>
-</body>
-</html>
+/* 🌼 Header */
+.header {
+  padding-top: 30px;
+  padding-bottom: 40px;
+}
+
+.title {
+  font-size: 68px;
+  margin-bottom: 10px;
+  letter-spacing: 1px;
+}
+
+/* 🌼 Divider Line */
+.divider {
+  width: 100%;
+  border: none;
+  height: 2px;
+  background-color: #000;
+  margin: 0 auto 15px;
+}
+
+/* 🌼 Search Bar */
+.search-bar {
+  margin-top: 10px;
+}
+
+.search-bar input {
+  padding: 10px 25px;
+  border-radius: 25px;
+  border: 1px solid #ccc;
+  outline: none;
+  width: 240px;
+  font-size: 18px;
+  font-family: 'Great Vibes', cursive;
+}
+
+/* 🌼 Circle Tile */
+.circle-tile {
+  background-color: white;
+  border-radius: 50%;
+  width: 220px;
+  height: 220px;
+  margin: 80px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #f0e6b5;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.15);
+  transition: all 0.3s ease;
+}
+
+.circle-tile:hover {
+  transform: scale(1.05);
+  box-shadow: 0 5px 15px rgba(255, 223, 100, 0.4);
+}
+
+.circle-tile p {
+  font-size: 24px;
+}
